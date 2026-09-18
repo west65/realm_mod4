@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "realm_mod:block/granite5",
+    "side": "realm_mod:block/granite5",
+    "top": "realm_mod:block/granite5"
+  }
+}

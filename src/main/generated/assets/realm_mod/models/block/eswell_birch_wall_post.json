@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "realm_mod:block/eswell_birch_planks"
+  }
+}

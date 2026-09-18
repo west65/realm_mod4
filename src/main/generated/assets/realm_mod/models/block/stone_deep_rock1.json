@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "realm_mod:block/stone_deep_rock1"
+  }
+}

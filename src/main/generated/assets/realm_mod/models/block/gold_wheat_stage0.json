@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "realm_mod:block/gold_wheat_stage0"
+  }
+}

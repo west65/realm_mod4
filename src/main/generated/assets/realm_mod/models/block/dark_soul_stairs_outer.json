@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "realm_mod:block/dark_soul_planks",
+    "side": "realm_mod:block/dark_soul_planks",
+    "top": "realm_mod:block/dark_soul_planks"
+  }
+}

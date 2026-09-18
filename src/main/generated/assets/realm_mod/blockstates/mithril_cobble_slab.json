@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/mithril_cobble_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/mithril_cobble"
+    },
+    "type=top": {
+      "model": "realm_mod:block/mithril_cobble_slab_top"
+    }
+  }
+}

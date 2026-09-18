@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "realm_mod:block/winter_oak_planks"
+  }
+}

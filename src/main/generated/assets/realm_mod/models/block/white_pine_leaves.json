@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "realm_mod:block/white_pine_leaves"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "block_variants": {
+    "custom stones": {
+      "variants": [
+        {
+          "name": "stone variant_1",
+          "texture": "realm_mod:block/stone1_variant1",
+          "properties": {
+            "color": "stone",
+            "variant": "variant1"
+          }
+        },
+        {
+          "name": "stone2_variant_2",
+          "texture": "realm_mod:block/stone2_variant2",
+          "properties": {
+            "color": "stone",
+            "variant": "variant2"
+          }
+        },
+        {
+          "name": "stone3_variant_3",
+          "texture": "realm_mod:block/stone3_variant3",
+          "properties": {
+            "color": "stone",
+            "variant": "variant3"
+          }
+        },
+        {
+          "name": "stone4_variant_4",
+          "texture": "realm_mod:block/stone4_variant4",
+          "properties": {
+            "color": "stone",
+            "variant": "variant4"
+          }
+        },
+        {
+          "name": "stone5_variant_5",
+          "texture": "realm_mod:block/stone5_variant5",
+          "properties": {
+            "color": "stone",
+            "variant": "variant5"
+          }
+        },
+        {
+          "name": "stone6_variant_6",
+          "texture": "realm_mod:block/stone5_variant5",
+          "properties": {
+            "color": "stone",
+            "variant": "variant6"
+          }
+        },
+        {
+          "name": "stone7_variant_7",
+          "texture": "realm_mod:block/stone5_variant7",
+          "properties": {
+            "color": "stone",
+            "variant": "variant7"
+          }
+        },
+        {
+          "name": "stone8_variant_8",
+          "texture": "realm_mod:block/stone5_variant8",
+          "properties": {
+            "color": "stone",
+            "variant": "variant8"
+          }
+        }
+      ]
+    },
+    "stone": {
+      "variants": [
+        {
+          "name": "stone_variant_1",
+          "texture": "realm_mod:block/stone_variant1",
+          "properties": {
+            "variant": "variant1"
+          }
+        }
+      ]
+    }
+  }
+}

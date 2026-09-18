@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "realm_mod:block/light_mithril_pillar_log_top",
+    "side": "realm_mod:block/light_mithril_pillar_log"
+  }
+}

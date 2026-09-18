@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/granite5_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/granite5"
+    },
+    "type=top": {
+      "model": "realm_mod:block/granite5_slab_top"
+    }
+  }
+}

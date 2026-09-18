@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/aged_stone_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/aged_stone"
+    },
+    "type=top": {
+      "model": "realm_mod:block/aged_stone_slab_top"
+    }
+  }
+}

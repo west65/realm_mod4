@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "realm_mod:block/mithril_cobble1",
+    "side": "realm_mod:block/mithril_cobble1",
+    "top": "realm_mod:block/mithril_cobble1"
+  }
+}

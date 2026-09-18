@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "realm_mod:block/eswell_leaves"
+  }
+}

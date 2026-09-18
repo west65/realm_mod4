@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "realm_mod:block/dark_soul_leaves"
+  }
+}

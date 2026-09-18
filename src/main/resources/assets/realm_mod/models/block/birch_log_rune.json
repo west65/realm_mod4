@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "realm_mod:block/birch_log_top",
+    "side": "realm_mod:block/birch_log_rune"
+  }
+}

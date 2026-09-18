@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/stone_brick_11_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/stone_brick_11"
+    },
+    "type=top": {
+      "model": "realm_mod:block/stone_brick_11_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/stone_rock2_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/stone_rock2"
+    },
+    "type=top": {
+      "model": "realm_mod:block/stone_rock2_slab_top"
+    }
+  }
+}

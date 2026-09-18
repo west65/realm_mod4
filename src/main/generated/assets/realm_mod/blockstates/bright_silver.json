@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "realm_mod:block/bright_silver_stage0"
+    },
+    "age=1": {
+      "model": "realm_mod:block/bright_silver_stage1"
+    },
+    "age=2": {
+      "model": "realm_mod:block/bright_silver_stage2"
+    },
+    "age=3": {
+      "model": "realm_mod:block/bright_silver_stage3"
+    },
+    "age=4": {
+      "model": "realm_mod:block/bright_silver_stage4"
+    },
+    "age=5": {
+      "model": "realm_mod:block/bright_silver_stage5"
+    },
+    "age=6": {
+      "model": "realm_mod:block/bright_silver_stage6"
+    },
+    "age=7": {
+      "model": "realm_mod:block/bright_silver_stage7"
+    }
+  }
+}

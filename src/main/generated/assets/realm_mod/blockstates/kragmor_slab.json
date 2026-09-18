@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/kragmor_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/kragmor"
+    },
+    "type=top": {
+      "model": "realm_mod:block/kragmor_slab_top"
+    }
+  }
+}

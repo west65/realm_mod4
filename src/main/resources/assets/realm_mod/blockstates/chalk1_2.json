@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "realm_mod:block/chalk1_2_height2"
+    },
+    "layers=2": {
+      "model": "realm_mod:block/chalk1_2_height4"
+    },
+    "layers=3": {
+      "model": "realm_mod:block/chalk1_2_height6"
+    },
+    "layers=4": {
+      "model": "realm_mod:block/chalk1_2_height8"
+    },
+    "layers=5": {
+      "model": "realm_mod:block/chalk1_2_height10"
+    },
+    "layers=6": {
+      "model": "realm_mod:block/chalk1_2_height12"
+    },
+    "layers=7": {
+      "model": "realm_mod:block/chalk1_2_height14"
+    },
+    "layers=8": {
+      "model": "realm_mod:block/chalk"
+    }
+  }
+}

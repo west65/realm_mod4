@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "realm_mod:block/shadow_birch_leaves"
+  }
+}

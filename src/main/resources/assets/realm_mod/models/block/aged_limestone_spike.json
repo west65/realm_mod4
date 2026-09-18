@@ -1,0 +1,45 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "realm_mod:block/aged_limestone_spike",
+		"particle": "realm_mod:block/aged_limestone_spike"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 5],
+			"to": [13, 13, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 13], "texture": "#0"},
+				"east": {"uv": [0, 0, 6, 13], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 13], "texture": "#0"},
+				"west": {"uv": [0, 0, 6, 13], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 13, 7],
+			"to": [11, 19, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 13, 7]},
+			"faces": {
+				"north": {"uv": [7, 0, 9, 6], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 6], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 6], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "voxelshape",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

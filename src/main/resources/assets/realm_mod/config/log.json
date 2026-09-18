@@ -1,0 +1,115 @@
+{
+  "block_variants": {
+    "custom logs": {
+      "variants": [
+        {
+          "name": "log1 variant_1",
+          "texture": "realm_mod:block/ash_oak_log_variant1",
+          "properties": {
+            "color": "log",
+            "variant": "variant1"
+          }
+        },
+        {
+          "name": "log2_variant_2",
+          "texture": "realm_mod:block/alder_log_variant2",
+          "properties": {
+            "color": "log",
+            "variant": "variant2"
+          }
+        },
+        {
+          "name": "log3_variant_3",
+          "texture": "realm_mod:block/angel_birch_log_variant3",
+          "properties": {
+            "color": "log",
+            "variant": "variant3"
+          }
+        },
+        {
+          "name": "log4_variant_4",
+          "texture": "realm_mod:block/burn_birch_log_variant4",
+          "properties": {
+            "color": "log",
+            "variant": "variant4"
+          }
+        },
+        {
+          "name": "log5_variant_5",
+          "texture": "realm_mod:block/crystal_oak_log_variant5",
+          "properties": {
+            "color": "log",
+            "variant": "variant5"
+          }
+        },
+        {
+          "name": "log6_variant_6",
+          "texture": "realm_mod:block/dark_soul_log_variant5",
+          "properties": {
+            "color": "log",
+            "variant": "variant6"
+          }
+        },
+        {
+          "name": "log7_variant_7",
+          "texture": "realm_mod:block/emberiar_log_variant7",
+          "properties": {
+            "color": "log",
+            "variant": "variant7"
+          }
+        },
+        {
+          "name": "log8_variant_8",
+          "texture": "realm_mod:block/gold_shadow_log_variant8",
+          "properties": {
+            "color": "log",
+            "variant": "variant8"
+          }
+        },
+        {
+          "name": "log9_variant_9",
+          "texture": "realm_mod:block/veil_wood_log_variant9",
+          "properties": {
+            "color": "log",
+            "variant": "variant9"
+          }
+        },
+        {
+          "name": "log9_variant_10",
+          "texture": "realm_mod:block/white_oak_log_variant10",
+          "properties": {
+            "color": "log",
+            "variant": "variant9"
+          }
+        },
+        {
+          "name": "log9_variant_11",
+          "texture": "realm_mod:block/white_pine_log_variant11",
+          "properties": {
+            "color": "log",
+            "variant": "variant11"
+          }
+        },
+        {
+          "name": "log9_variant_12",
+          "texture": "realm_mod:block/whinter_oak_log_log_variant12",
+          "properties": {
+            "color": "log",
+            "variant": "variant12"
+          }
+        }
+      ]
+    },
+    "stone": {
+      "variants": [
+        {
+          "name": "log_variant_1",
+          "texture": "realm_mod:block/light_birch_log_variant1",
+          "properties": {
+            "variant": "variant1"
+          }
+        }
+      ]
+    }
+  }
+}

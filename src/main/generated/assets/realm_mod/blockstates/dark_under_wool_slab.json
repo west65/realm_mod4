@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/dark_under_wool_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/dark_under_wool"
+    },
+    "type=top": {
+      "model": "realm_mod:block/dark_under_wool_slab_top"
+    }
+  }
+}

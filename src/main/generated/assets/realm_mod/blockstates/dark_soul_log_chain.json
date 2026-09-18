@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "realm_mod:block/dark_soul_log_chain",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "realm_mod:block/dark_soul_log_chain"
+    },
+    "axis=z": {
+      "model": "realm_mod:block/dark_soul_log_chain",
+      "x": 90
+    }
+  }
+}

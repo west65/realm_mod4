@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/burn_birch_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/burn_birch_planks"
+    },
+    "type=top": {
+      "model": "realm_mod:block/burn_birch_slab_top"
+    }
+  }
+}

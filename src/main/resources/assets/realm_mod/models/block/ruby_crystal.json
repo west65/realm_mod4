@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "realm_mod:block/ruby_crystal",
+		"particle": "realm_mod:block/ruby_crystal"
+	},
+	"elements": [
+		{
+			"from": [9, 0, 6],
+			"to": [12, 9, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 0, 8]},
+			"faces": {
+				"north": {"uv": [2, 0, 5, 9], "texture": "#0"},
+				"east": {"uv": [3, 0, 4, 9], "texture": "#0"},
+				"south": {"uv": [5, 0, 8, 9], "texture": "#0"},
+				"west": {"uv": [1, 0, 2, 9], "texture": "#0"},
+				"up": {"uv": [5, 1, 8, 2], "texture": "#0"},
+				"down": {"uv": [5, 3, 8, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 4, 6],
+			"to": [10, 9, 7],
+			"rotation": {"x": -32.5, "y": 27.5, "z": 0, "origin": [8, 4, 7]},
+			"faces": {
+				"north": {"uv": [0, 6, 2, 11], "texture": "#0"},
+				"east": {"uv": [2, 6, 3, 11], "texture": "#0"},
+				"south": {"uv": [0, 6, 2, 11], "texture": "#0"},
+				"west": {"uv": [0, 6, 1, 11], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 1], "texture": "#0"},
+				"down": {"uv": [0, 2, 2, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [12, 5, 6],
+			"to": [14, 12, 7],
+			"rotation": {"angle": 35, "axis": "x", "origin": [12, 5, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 7], "texture": "#0"},
+				"east": {"uv": [1, 0, 2, 7], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 7], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 1], "texture": "#0"},
+				"down": {"uv": [0, 1, 2, 2], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "ruby_crystal",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

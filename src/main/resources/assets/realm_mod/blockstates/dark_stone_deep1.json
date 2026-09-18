@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "realm_mod:block/dark_stone_deep1"
+      },
+      {
+        "model": "realm_mod:block/dark_stone_deep1",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "realm_mod:block/dark_stone_deep1",
+        "x": 90
+      }
+    ]
+  }
+}

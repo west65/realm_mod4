@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/chalk_s"
+    },
+    "type=double": {
+      "model": "realm_mod:block/chalk4"
+    },
+    "type=top": {
+      "model": "realm_mod:block/chalk_s_top"
+    }
+  }
+}

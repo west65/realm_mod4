@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "realm_mod:block/dark_soul_wheat_stage4"
+  }
+}

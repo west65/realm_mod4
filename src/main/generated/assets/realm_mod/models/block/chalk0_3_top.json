@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "realm_mod:block/chalk3",
+    "side": "realm_mod:block/chalk3",
+    "top": "realm_mod:block/chalk3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "realm_mod:block/med_green_wool_slab"
+    },
+    "type=double": {
+      "model": "realm_mod:block/med_green_wool"
+    },
+    "type=top": {
+      "model": "realm_mod:block/med_green_wool_slab_top"
+    }
+  }
+}

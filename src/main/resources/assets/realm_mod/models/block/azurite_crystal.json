@@ -1,0 +1,71 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "realm_mod:block/azurite_crystal",
+		"particle": "realm_mod:block/azurite_crystal"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 12, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 12], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 12], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 12], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 12], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 8, 5],
+			"to": [7, 9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 9, 2, 10], "texture": "#0"},
+				"east": {"uv": [0, 9, 6, 10], "texture": "#0"},
+				"south": {"uv": [0, 9, 2, 10], "texture": "#0"},
+				"west": {"uv": [0, 9, 6, 10], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 6], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 9, 7],
+			"to": [11, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 9, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 7], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 7], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 7], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 9, 3],
+			"to": [7, 10, 9],
+			"rotation": {"angle": 15, "axis": "y", "origin": [5, 9, 7]},
+			"faces": {
+				"north": {"uv": [0, 1, 2, 2], "texture": "#0"},
+				"east": {"uv": [0, 1, 6, 2], "texture": "#0"},
+				"south": {"uv": [0, 1, 2, 2], "texture": "#0"},
+				"west": {"uv": [6, 1, 12, 2], "texture": "#0"},
+				"up": {"uv": [0, 6, 2, 12], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 6], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "voxelshape",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

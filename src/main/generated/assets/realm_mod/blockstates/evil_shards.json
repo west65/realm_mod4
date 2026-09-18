@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "realm_mod:block/evil_shards",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "realm_mod:block/evil_shards",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "realm_mod:block/evil_shards",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "realm_mod:block/evil_shards",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "realm_mod:block/evil_shards"
+    },
+    "facing=west": {
+      "model": "realm_mod:block/evil_shards",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

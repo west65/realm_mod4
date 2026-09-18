@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "realm_mod:block/silver_block"
+      },
+      {
+        "model": "realm_mod:block/silver_block",
+        "y": 90
+      },
+      {
+        "model": "realm_mod:block/silver_block",
+        "y": 180
+      },
+      {
+        "model": "realm_mod:block/silver_block",
+        "y": 270
+      }
+    ],
+    "snowy=true": {
+      "model": "realm_mod:block/silver_block_snow"
+    }
+  }
+}

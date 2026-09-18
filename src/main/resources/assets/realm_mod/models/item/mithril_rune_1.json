@@ -1,0 +1,31 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "realm_mod:item/mithril_rune_1"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 8],
+			"to": [11, 10, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 10], "texture": "#1"},
+				"east": {"uv": [1, 0, 2, 10], "texture": "#missing"},
+				"south": {"uv": [0, 0, 7, 10], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 10], "texture": "#missing"},
+				"up": {"uv": [0, 0, 7, 1], "texture": "#missing"},
+				"down": {"uv": [0, 1, 7, 2], "texture": "#missing"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "voxelshape",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
