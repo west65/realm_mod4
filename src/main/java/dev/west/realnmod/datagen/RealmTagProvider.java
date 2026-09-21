@@ -360,6 +360,8 @@ tag(RealmTags.BLOCK.desert)
 
 
                   tag(BlockTags.LOGS)
+                          .add(Realm_logs.getRK(Realm_logs.ANCIENT_OAK_log))
+                          .add(Realm_logs.getRK(Realm_logs.STARFALL_log))
                           .add(Realm_logs.getRK(Realm_logs.elderwell_log))
                           .add(Realm_logs.getRK(Realm_logs.cedarbrook_log))
                           .add(Realm_logs.getRK(Realm_logs.CORRUPT_BEECH_LOG))
@@ -503,6 +505,19 @@ tag(RealmTags.BLOCK.desert)
                 .add(RealmBlocks.getRK(RealmBlocks.DARK_SOUL_WHEAT))
                 .add(RealmBlocks.getRK(RealmBlocks.Gold_WHEAT))
                 .add(RealmBlocks.getRK(RealmBlocks.GOATFEED_CROP));
+
+
+
+
+
+                    tag(BlockTags.LEAVES)
+                            .add(Realm_logs.getRK(Realm_logs.STARFALL_LEAVES))
+                            .add(Realm_logs.getRK(Realm_logs.DARK_SOUL_LEAVES))
+                            .add(Realm_logs.getRK(Realm_logs.ESWELL_BIRCH_LEAVES))
+                            .add(Realm_logs.getRK(Realm_logs.ANCIENT_OAK_LEAVES))
+                            .add(Realm_logs.getRK(Realm_logs.CORRUPT_BEECH_LEAVES))
+                            .add(Realm_logs.getRK(Realm_logs.BLOOD_oak_LEAVES))
+                            .add(Realm_logs.getRK(Realm_logs.SHADOW_birch_LEAVES));
 
 
 

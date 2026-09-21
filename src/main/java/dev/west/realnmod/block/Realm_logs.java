@@ -269,10 +269,24 @@ public class Realm_logs {
     public static final Block elderwell_log = registerBlock("elderwell_log",
             properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
                     .sound(SoundType.WOOD).ignitedByLava()));
-
-
-
-
+    public static final Block STARFALL_log = registerBlock("starfall_log",
+            properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
+    public static final Block ANCIENT_OAK_log = registerBlock("ancient_oak_log",
+            properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
+    public static final Block ANCIENT_OAK_LEAVES = registerBlock("ancient_oak_leaves",
+            properties -> new UntintedParticleLeavesBlock(0f, ParticleTypes.PALE_OAK_LEAVES,
+                    properties.mapColor(MapColor.COLOR_LIGHT_BLUE).strength(0.2F).randomTicks().sound(SoundType.GRASS)
+                            .noOcclusion().isValidSpawn(Blocks::ocelotOrParrot).isSuffocating(Blocks::never)
+                            .isViewBlocking(Blocks::never).ignitedByLava().pushReaction(PushReaction.DESTROY)
+                            .isRedstoneConductor(Blocks::never)));
+    public static final Block STARFALL_LEAVES = registerBlock("starfall_leaves",
+            properties -> new UntintedParticleLeavesBlock(0f, ParticleTypes.PALE_OAK_LEAVES,
+                    properties.mapColor(MapColor.COLOR_LIGHT_BLUE).strength(0.2F).randomTicks().sound(SoundType.GRASS)
+                            .noOcclusion().isValidSpawn(Blocks::ocelotOrParrot).isSuffocating(Blocks::never)
+                            .isViewBlocking(Blocks::never).ignitedByLava().pushReaction(PushReaction.DESTROY)
+                            .isRedstoneConductor(Blocks::never)));
 
 
     public static ResourceKey<Block> getRK(Block block) {

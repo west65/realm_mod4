@@ -157,6 +157,8 @@ public class RealmModelProvider extends FabricModelProvider {
         blockModelGenerators.woodProvider(Realm_logs.BRAMBLEGROVE_LOG).log(Realm_logs.BRAMBLEGROVE_LOG);
         blockModelGenerators.woodProvider(Realm_logs.cedarbrook_log).log(Realm_logs.cedarbrook_log);
         blockModelGenerators.woodProvider(Realm_logs.elderwell_log).log(Realm_logs.elderwell_log);
+        blockModelGenerators.woodProvider(Realm_logs.STARFALL_log).log(Realm_logs.STARFALL_log);
+        blockModelGenerators.woodProvider(Realm_logs.ANCIENT_OAK_log).log(Realm_logs.ANCIENT_OAK_log);
 
 
 
@@ -331,6 +333,8 @@ public class RealmModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialBlock(Realm_logs.BLOOD_oak_LEAVES, TexturedModel.LEAVES);
         blockModelGenerators.createTrivialBlock(Realm_logs.CORRUPT_BEECH_LEAVES, TexturedModel.LEAVES);
         blockModelGenerators.createTrivialBlock(Realm_logs.ESWELL_BIRCH_LEAVES, TexturedModel.LEAVES);
+        blockModelGenerators.createTrivialBlock(Realm_logs.ANCIENT_OAK_LEAVES, TexturedModel.LEAVES);
+        blockModelGenerators.createTrivialBlock(Realm_logs.STARFALL_LEAVES, TexturedModel.LEAVES);
 
 
         blockModelGenerators.createTrivialCube(RealmMushroom.angel_mushroom);

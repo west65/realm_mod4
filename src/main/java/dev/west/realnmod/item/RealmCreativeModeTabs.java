@@ -642,6 +642,10 @@ public class RealmCreativeModeTabs {
             FabricCreativeModeTab.builder().icon(()-> new ItemStack(Realm_logs.WHITE_PINE_LOG))
                     .title(Component.translatable("item.realm_logs"))
                     .displayItems((parameters, output) -> {
+                        output.accept(Realm_logs.ANCIENT_OAK_LEAVES);
+                        output.accept(Realm_logs.ANCIENT_OAK_log);
+                        output.accept(Realm_logs.STARFALL_LEAVES);
+                        output.accept(Realm_logs.STARFALL_log);
                         output.accept(Realm_logs.cedarbrook_log);
                         output.accept(Realm_logs.BRAMBLEGROVE_LOG);
                         output.accept(Realm_logs.OBANT_LOG);
