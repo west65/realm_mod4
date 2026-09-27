@@ -68,6 +68,12 @@ public class RealmLimestone {
     public static final Block light_limestone2 = registerBlock("light_limestone2",
             properties -> new Block(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block light_limestone3 = registerBlock("light_limestone3",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block light_limestone4 = registerBlock("light_limestone4",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block light_limestone2_1 = registerBlock("light_limestone2_1",
             properties -> new SlabBlock(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
@@ -105,6 +111,9 @@ public class RealmLimestone {
             properties -> new Block(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block aged_limestone_brick3 = registerBlock("aged_limestone_brick3",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block aged_limestone_brick4 = registerBlock("aged_limestone_brick4",
             properties -> new Block(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block light_lime_PIKE = registerBlock("light_lime_pike",

@@ -183,6 +183,7 @@ public class RealmEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("block.realm_mod.aged_limestone_brick1", "aged_limestone_brick1");
         translationBuilder.add("block.realm_mod.aged_limestone_brick2", "aged_limestone_brick2");
         translationBuilder.add("block.realm_mod.aged_limestone_brick3", "aged_limestone_brick3");
+        translationBuilder.add("block.realm_mod.aged_limestone_brick4", "aged_limestone_brick4");
         translationBuilder.add("block.realm_mod.aged_limestone2", "aged_limestone2");
         translationBuilder.add("block.realm_mod.aged_limestone1", "aged_limestone1");
         translationBuilder.add("block.realm_mod.aged_limestone3", "aged_limestone3");
@@ -237,6 +238,7 @@ public class RealmEnglishLangProvider extends FabricLanguageProvider {
 
 
         //logs
+        translationBuilder.add("block.realm_mod.willow_bloom_leaves", "willow_bloom_leaves");
         translationBuilder.add("block.realm_mod.starfall_leaves", "starfall_leaves");
         translationBuilder.add("block.realm_mod.ancient_oak_leaves", "amcient_oak_leaves");
         translationBuilder.add("block.realm_mod.ancient_oak_log", "amcient_oak_log");
@@ -372,6 +374,8 @@ public class RealmEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("block.realm_mod.small_crystal", "small_crystal");
         translationBuilder.add("block.realm_mod.starlace", "starlace");
 
+        translationBuilder.add("block.realm_mod.light_limestone4", "light_limestone4");
+        translationBuilder.add("block.realm_mod.light_limestone3", "light_limestone3");
         translationBuilder.add("block.realm_mod.light_limestone2", "light_limestone2");
         translationBuilder.add("block.realm_mod.light_limestone_1", "light_limestone_1");
         translationBuilder.add("block.realm_mod.light_limestone1", "light_limestone1");

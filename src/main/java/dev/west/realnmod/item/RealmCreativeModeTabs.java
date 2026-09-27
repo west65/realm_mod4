@@ -383,6 +383,8 @@ public class RealmCreativeModeTabs {
                         output.accept(RealmLimestone.light_limestone);
                         output.accept(RealmLimestone.light_limestone1);
                         output.accept(RealmLimestone.light_limestone2);
+                        output.accept(RealmLimestone.light_limestone3);
+                        output.accept(RealmLimestone.light_limestone4);
                         output.accept(RealmLimestone.light_limestone2_1);
                         output.accept(RealmLimestone.light_limestone2_2);
                         output.accept(RealmLimestone.light_lime_PIKE);
@@ -406,6 +408,7 @@ public class RealmCreativeModeTabs {
                         output.accept(RealmLimestone.aged_limestone_brick1);
                         output.accept(RealmLimestone.aged_limestone_brick2);
                         output.accept(RealmLimestone.aged_limestone_brick3);
+                        output.accept(RealmLimestone.aged_limestone_brick4);
                         output.accept(RealmLimestone.aged_limestone_block);
                         output.accept(RealmLimestone.aged_limestone_spike);
                         output.accept(RealmLimestone.aged_limestone_small);
@@ -654,6 +657,7 @@ public class RealmCreativeModeTabs {
                         output.accept(Realm_logs.CORRUPT_BEECH_LEAVES);
                         output.accept(Realm_logs.MAPLEHAVEN_LOG);
                         output.accept(Realm_logs.WILLOW_BLOOM_LOG);
+                        output.accept(Realm_logs.WILLOW_BLOOM_LEAVES);
                         output.accept(Realm_logs.sorcerers_OAK_LOG);
                         output.accept(Realm_logs.SILVER_OAK_LOG);
                         output.accept(Realm_logs.URBAN_LOG);

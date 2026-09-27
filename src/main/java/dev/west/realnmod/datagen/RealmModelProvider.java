@@ -228,8 +228,11 @@ public class RealmModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(RealmLimestone.aged_limestone_brick1);
         blockModelGenerators.createTrivialCube(RealmLimestone.aged_limestone_brick2);
         blockModelGenerators.createTrivialCube(RealmLimestone.aged_limestone_brick3);
+        blockModelGenerators.createTrivialCube(RealmLimestone.aged_limestone_brick4);
         blockModelGenerators.createTrivialCube(RealmLimestone.light_limestone);
         blockModelGenerators.createTrivialCube(RealmLimestone.light_limestone1);
+        blockModelGenerators.createTrivialCube(RealmLimestone.light_limestone3);
+        blockModelGenerators.createTrivialCube(RealmLimestone.light_limestone4);
 
 
 
@@ -335,6 +338,7 @@ public class RealmModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialBlock(Realm_logs.ESWELL_BIRCH_LEAVES, TexturedModel.LEAVES);
         blockModelGenerators.createTrivialBlock(Realm_logs.ANCIENT_OAK_LEAVES, TexturedModel.LEAVES);
         blockModelGenerators.createTrivialBlock(Realm_logs.STARFALL_LEAVES, TexturedModel.LEAVES);
+        blockModelGenerators.createTrivialBlock(Realm_logs.WILLOW_BLOOM_LEAVES, TexturedModel.LEAVES);
 
 
         blockModelGenerators.createTrivialCube(RealmMushroom.angel_mushroom);

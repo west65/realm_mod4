@@ -149,6 +149,7 @@ public class RealmLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(Realm_logs.ANCIENT_OAK_log);
         dropSelf(Realm_logs.ANCIENT_OAK_LEAVES);
         dropSelf(Realm_logs.STARFALL_LEAVES);
+        dropSelf(Realm_logs.WILLOW_BLOOM_LEAVES);
 
 
 
@@ -189,8 +190,11 @@ public class RealmLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(RealmLimestone.light_limestone);
         dropSelf(RealmLimestone.light_limestone1);
         dropSelf(RealmLimestone.light_limestone2);
+        dropSelf(RealmLimestone.light_limestone3);
+        dropSelf(RealmLimestone.light_limestone4);
         dropSelf(RealmLimestone.light_limestone2_1);
         dropSelf(RealmLimestone.light_limestone2_2);
+        dropSelf(RealmLimestone.aged_limestone_brick4);
 
 
         dropSelf(RealmBlocks.mithril_wool_slab);

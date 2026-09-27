@@ -287,6 +287,16 @@ public class Realm_logs {
                             .noOcclusion().isValidSpawn(Blocks::ocelotOrParrot).isSuffocating(Blocks::never)
                             .isViewBlocking(Blocks::never).ignitedByLava().pushReaction(PushReaction.DESTROY)
                             .isRedstoneConductor(Blocks::never)));
+    public static final Block WILLOW_BLOOM_LEAVES = registerBlock("willow_bloom_leaves",
+            properties -> new UntintedParticleLeavesBlock(0f, ParticleTypes.PALE_OAK_LEAVES,
+                    properties.mapColor(MapColor.COLOR_LIGHT_GRAY).strength(0.2F).randomTicks().sound(SoundType.GRASS)
+                            .noOcclusion().isValidSpawn(Blocks::ocelotOrParrot).isSuffocating(Blocks::never)
+                            .isViewBlocking(Blocks::never).ignitedByLava().pushReaction(PushReaction.DESTROY)
+                            .isRedstoneConductor(Blocks::never)));
+
+
+
+
 
 
     public static ResourceKey<Block> getRK(Block block) {

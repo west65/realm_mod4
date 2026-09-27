@@ -78,6 +78,8 @@ public class RealmTagProvider extends FabricTagsProvider.BlockTagsProvider {
 
 
         tag(RealmTags.BLOCK.LIMESTONE)
+                .add(RealmLimestone.getRK(RealmLimestone.light_limestone4))
+                .add(RealmLimestone.getRK(RealmLimestone.light_limestone3))
                 .add(RealmLimestone.getRK(RealmLimestone.light_limestone1))
                 .add(RealmLimestone.getRK(RealmLimestone.light_limestone))
                 .add(RealmLimestone.getRK(RealmLimestone.limestone))
@@ -186,6 +188,7 @@ tag(RealmTags.BLOCK.desert)
                 .add(RealmStone.getRK(RealmStone.AGED_STONE_BRICK))
                 .add(RealmStone.getRK(RealmStone.AGED_STONE_BRICK1))
                 .add(RealmStone.getRK(RealmStone.AGED_STONE_BRICK2))
+                .add(RealmLimestone.getRK(RealmLimestone.aged_limestone_brick4))
                 .add(RealmStone.getRK(RealmStone.STONE_ROCK2_SLAB))
                 .add(RealmStone.getRK(RealmStone.STONE_ROCK_n1))
                 .add(RealmStone.getRK(RealmStone.STONE_ROCK_n))
@@ -511,6 +514,7 @@ tag(RealmTags.BLOCK.desert)
 
 
                     tag(BlockTags.LEAVES)
+                            .add(Realm_logs.getRK(Realm_logs.WILLOW_BLOOM_LEAVES))
                             .add(Realm_logs.getRK(Realm_logs.STARFALL_LEAVES))
                             .add(Realm_logs.getRK(Realm_logs.DARK_SOUL_LEAVES))
                             .add(Realm_logs.getRK(Realm_logs.ESWELL_BIRCH_LEAVES))
