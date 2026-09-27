@@ -78,6 +78,22 @@ public class RealmTagProvider extends FabricTagsProvider.BlockTagsProvider {
 
 
         tag(RealmTags.BLOCK.LIMESTONE)
+                .add(RealmLimestone.getRK(RealmLimestone.red_deep_limestone))
+                .add(RealmLimestone.getRK(RealmLimestone.red_deep_limestone_brick))
+                .add(RealmLimestone.getRK(RealmLimestone.limestone_8_slab))
+                .add(RealmLimestone.getRK(RealmLimestone.dark_silver_limestone_brick))
+                .add(RealmLimestone.getRK(RealmLimestone.dark_limestone_brick))
+                .add(RealmLimestone.getRK(RealmLimestone.dark_limestone))
+                .add(RealmLimestone.getRK(RealmLimestone.dark_silver_limestone))
+                .add(RealmLimestone.getRK(RealmLimestone.old_limestone_brick_slab))
+                .add(RealmLimestone.getRK(RealmLimestone.old_limestone))
+                .add(RealmLimestone.getRK(RealmLimestone.old_limestone1))
+                .add(RealmLimestone.getRK(RealmLimestone.old_limestone_brick))
+                .add(RealmLimestone.getRK(RealmLimestone.red_limestone1))
+                .add(RealmLimestone.getRK(RealmLimestone.red_limestone2))
+                .add(RealmLimestone.getRK(RealmLimestone.red_limestone_brick1))
+                .add(RealmLimestone.getRK(RealmLimestone.light_limestone_brick))
+                .add(RealmLimestone.getRK(RealmLimestone.light_limestone5))
                 .add(RealmLimestone.getRK(RealmLimestone.light_limestone4))
                 .add(RealmLimestone.getRK(RealmLimestone.light_limestone3))
                 .add(RealmLimestone.getRK(RealmLimestone.light_limestone1))
@@ -90,6 +106,9 @@ public class RealmTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(RealmLimestone.getRK(RealmLimestone.limestone5))
                 .add(RealmLimestone.getRK(RealmLimestone.limestone6))
                 .add(RealmLimestone.getRK(RealmLimestone.limestone7))
+                .add(RealmLimestone.getRK(RealmLimestone.limestone8))
+                .add(RealmLimestone.getRK(RealmLimestone.limestone9))
+                .add(RealmLimestone.getRK(RealmLimestone.limestone_brick))
                 .add(RealmLimestone.getRK(RealmLimestone.aged_limestone))
                 .add(RealmLimestone.getRK(RealmLimestone.aged_limestone1))
                 .add(RealmLimestone.getRK(RealmLimestone.aged_limestone2))
@@ -100,7 +119,9 @@ public class RealmTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(RealmLimestone.getRK(RealmLimestone.aged_limestone_brick2))
                 .add(RealmLimestone.getRK(RealmLimestone.aged_limestone_brick3))
                 .add(RealmLimestone.getRK(RealmLimestone.aged_limestone_brick))
-
+                .add(RealmLimestone.getRK(RealmLimestone.red_limestone_brick))
+                .add(RealmLimestone.getRK(RealmLimestone.red_limestone_brick_wall))
+                .add(RealmLimestone.getRK(RealmLimestone.red_limestone_brick_slab))
                 .add(RealmLimestone.getRK(RealmLimestone.red_limestone));
 
 
@@ -152,6 +173,8 @@ tag(RealmTags.BLOCK.desert)
 
 
     tag(BlockTags.SLABS)
+            .add(RealmLimestone.getRK(RealmLimestone.limestone_8_slab))
+            .add(RealmLimestone.getRK(RealmLimestone.red_limestone2_slab))
             .add(RealmStone.getRK(RealmStone.kragmor_slab))
             .add(RealmStone.getRK(RealmStone.LAVA_STONE_SLAB))
             .add(RealmStone.getRK(RealmStone.AGED_STONE_SLAB))
@@ -166,6 +189,7 @@ tag(RealmTags.BLOCK.desert)
 
 
     tag(BlockTags.WALLS)
+            .add(RealmLimestone.getRK(RealmLimestone.red_limestone_brick_wall))
             .add(RealmBlocks.getRK(RealmBlocks.mithril_wool_wall))
             .add(Realm_logs.getRK(Realm_logs.ESWELL_BIRCH_WALL))
             .add(Realm_logs.getRK(Realm_logs.WINTER_OAK_wall))
@@ -179,6 +203,9 @@ tag(RealmTags.BLOCK.desert)
 
 
         tag(RealmTags.BLOCK.STONE)
+                .add(RealmStone.getRK(RealmStone.ROCK_DEEP_STONE_BRICK))
+                .add(RealmStone.getRK(RealmStone.ROCK_DEEP_STONE))
+                .add(RealmStone.getRK(RealmStone.ROCK_DEEP_STONE1))
                 .add(RealmStone.getRK(RealmStone.kragmor_slab))
                 .add(RealmStone.getRK(RealmStone.kragmor))
                 .add(RealmStone.getRK(RealmStone.gorvask_stone))
@@ -270,6 +297,7 @@ tag(RealmTags.BLOCK.desert)
                 .add(RealmBlocks.getRK(RealmBlocks.DEEP_SILVER_STONE))
                 .add(RealmBlocks.getRK(RealmBlocks.DEEP_SILVER_STONE1))
                 .add(RealmStone.getRK(RealmStone.LAVA_STONE))
+                .add(RealmStone.getRK(RealmStone.STONE_DEEP_ROCK_BRICK))
                 .add(RealmStone.getRK(RealmStone.stone));
 
 

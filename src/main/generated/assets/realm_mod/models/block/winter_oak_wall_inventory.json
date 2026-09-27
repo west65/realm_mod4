@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "realm_mod:block/winter_oak_planks"
+    "wall": "realm_mod:block/old_limestone_brick"
   }
 }

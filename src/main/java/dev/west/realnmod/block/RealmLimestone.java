@@ -17,7 +17,60 @@ import java.util.function.Function;
 
 public class RealmLimestone {
 
+
+
+    public static final Block old_limestone = registerBlock("old_limestone",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block old_limestone1 = registerBlock("old_limestone1",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block old_limestone_brick = registerBlock("old_limestone_brick",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block old_limestone_brick_slab = registerBlock("old_limestone_brick_slab",
+            properties -> new SlabBlock(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block dark_limestone_brick = registerBlock("dark_limestone_brick",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block dark_limestone = registerBlock("dark_limestone",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block dark_silver_limestone = registerBlock("dark_silver_limestone",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block dark_silver_limestone_brick = registerBlock("dark_silver_limestone_brick",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block red_limestone = registerBlock("red_limestone",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_limestone1 = registerBlock("red_limestone1",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_limestone2 = registerBlock("red_limestone2",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_limestone2_slab = registerBlock("red_limestone2_slab",
+            properties -> new SlabBlock(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_limestone_brick = registerBlock("red_limestone_brick",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_limestone_brick1 = registerBlock("red_limestone_brick1",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_limestone_brick_wall = registerBlock("red_limestone_brick_wall",
+            properties -> new WallBlock(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_limestone_brick_slab = registerBlock("red_limestone_brick_slab",
+            properties -> new SlabBlock(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_deep_limestone = registerBlock("red_deep_limestone",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block red_deep_limestone_brick = registerBlock("red_deep_limestone_brick",
             properties -> new Block(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block limestone = registerBlock("limestone",
@@ -74,6 +127,9 @@ public class RealmLimestone {
     public static final Block light_limestone4 = registerBlock("light_limestone4",
             properties -> new Block(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block light_limestone5 = registerBlock("light_limestone5",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block light_limestone2_1 = registerBlock("light_limestone2_1",
             properties -> new SlabBlock(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
@@ -85,6 +141,15 @@ public class RealmLimestone {
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block limestone8 = registerBlock("limestone8",
             properties -> new RealmLayers(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block limestone_8_slab = registerBlock("limestone_8_slab",
+            properties -> new SlabBlock(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block limestone9 = registerBlock("limestone9",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block limestone_brick = registerBlock("limestone_brick",
+            properties -> new Block(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block aged_limestone5 = registerBlock("aged_limestone5",
             properties -> new Block(properties.strength(1.0F)
@@ -119,6 +184,9 @@ public class RealmLimestone {
     public static final Block light_lime_PIKE = registerBlock("light_lime_pike",
             properties -> new RealmRune(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion()));
+    public static final Block light_limestone_brick = registerBlock("light_limestone_brick",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
 

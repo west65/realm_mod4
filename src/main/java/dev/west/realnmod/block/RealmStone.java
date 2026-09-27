@@ -219,6 +219,9 @@ public class RealmStone {
     public static final Block STONE_DEEP_ROCK1 = registerBlock("stone_deep_rock1",
             properties -> new Block(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block STONE_DEEP_ROCK_BRICK = registerBlock("stone_deep_rock_brick",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final Block STONEBRICK = registerBlock("stonebrick",
             properties -> new Block(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
@@ -261,7 +264,15 @@ public class RealmStone {
     public static final Block kragmor_slab = registerBlock("kragmor_slab",
             properties -> new SlabBlock(properties.strength(1.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
+    public static final Block ROCK_DEEP_STONE = registerBlock("rock_deep_stone",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block ROCK_DEEP_STONE_BRICK = registerBlock("rock_deep_stone_brick",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final Block ROCK_DEEP_STONE1 = registerBlock("rock_deep_stone1",
+            properties -> new Block(properties.strength(1.0F)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
 

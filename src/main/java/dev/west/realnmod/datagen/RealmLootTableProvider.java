@@ -168,7 +168,24 @@ public class RealmLootTableProvider extends FabricBlockLootSubProvider {
 
 
 
+        dropSelf(RealmLimestone.old_limestone);
+        dropSelf(RealmLimestone.old_limestone1);
+        dropSelf(RealmLimestone.old_limestone_brick);
+        dropSelf(RealmLimestone.dark_limestone_brick);
+        dropSelf(RealmLimestone.dark_silver_limestone);
+        dropSelf(RealmLimestone.dark_silver_limestone_brick);
+        dropSelf(RealmLimestone.dark_limestone);
+        dropSelf(RealmLimestone.old_limestone_brick_slab);
         dropSelf(RealmLimestone.red_limestone);
+        dropSelf(RealmLimestone.red_limestone1);
+        dropSelf(RealmLimestone.red_limestone2);
+        dropSelf(RealmLimestone.red_deep_limestone);
+        dropSelf(RealmLimestone.red_deep_limestone_brick);
+        dropSelf(RealmLimestone.red_limestone2_slab);
+        dropSelf(RealmLimestone.red_limestone_brick);
+        dropSelf(RealmLimestone.red_limestone_brick1);
+        dropSelf(RealmLimestone.red_limestone_brick_slab);
+        dropSelf(RealmLimestone.red_limestone_brick_wall);
         dropSelf(RealmLimestone.limestone1);
         dropSelf(RealmLimestone.limestone2);
         dropSelf(RealmLimestone.limestone3);
@@ -177,6 +194,9 @@ public class RealmLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(RealmLimestone.limestone6);
         dropSelf(RealmLimestone.limestone7);
         dropSelf(RealmLimestone.limestone8);
+        dropSelf(RealmLimestone.limestone_8_slab);
+        dropSelf(RealmLimestone.limestone9);
+        dropSelf(RealmLimestone.limestone_brick);
         dropSelf(RealmLimestone.aged_limestone);
         dropSelf(RealmLimestone.aged_limestone1);
         dropSelf(RealmLimestone.aged_limestone2);
@@ -192,9 +212,11 @@ public class RealmLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(RealmLimestone.light_limestone2);
         dropSelf(RealmLimestone.light_limestone3);
         dropSelf(RealmLimestone.light_limestone4);
+        dropSelf(RealmLimestone.light_limestone5);
         dropSelf(RealmLimestone.light_limestone2_1);
         dropSelf(RealmLimestone.light_limestone2_2);
         dropSelf(RealmLimestone.aged_limestone_brick4);
+        dropSelf(RealmLimestone.light_limestone_brick);
 
 
         dropSelf(RealmBlocks.mithril_wool_slab);
@@ -336,6 +358,7 @@ public class RealmLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(RealmStone.kragmor_slab);
 
 
+
         dropSelf(RealmStoneBrick.stone_Brick);
         dropSelf(RealmStoneBrick.stone_Brick1);
         dropSelf(RealmStoneBrick.stone_Brick2);
@@ -363,9 +386,13 @@ public class RealmLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(RealmStone.STONE_ROCK_n1);
         dropSelf(RealmStone.STONE_DEEP_ROCK);
         dropSelf(RealmStone.STONE_DEEP_ROCK1);
+        dropSelf(RealmStone.STONE_DEEP_ROCK_BRICK);
         dropSelf(RealmStone.STONEBRICK);
         dropSelf(RealmStone.WHITE_STONE);
         dropSelf(RealmStone.WHITE_STONE_1);
+        dropSelf(RealmStone.ROCK_DEEP_STONE);
+        dropSelf(RealmStone.ROCK_DEEP_STONE1);
+        dropSelf(RealmStone.ROCK_DEEP_STONE_BRICK);
 
 
         dropSelf(RealmRhyolite.rhyolite);

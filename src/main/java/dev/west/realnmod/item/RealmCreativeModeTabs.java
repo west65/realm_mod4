@@ -239,6 +239,9 @@ public class RealmCreativeModeTabs {
             FabricCreativeModeTab.builder().icon(()-> new ItemStack(RealmStone.stone))
                     .title(Component.translatable("item.realm_stone"))
                     .displayItems((parameters, output) -> {
+                        output.accept(RealmStone.ROCK_DEEP_STONE_BRICK);
+                        output.accept(RealmStone.ROCK_DEEP_STONE);
+                        output.accept(RealmStone.ROCK_DEEP_STONE1);
                         output.accept(RealmStone.kragmor);
                         output.accept(RealmStone.kragmor_slab);
                         output.accept(RealmStone.gloomcaver);
@@ -314,6 +317,7 @@ public class RealmCreativeModeTabs {
                         output.accept(RealmStone.STONE_ROCK_n1);
                         output.accept(RealmStone.STONE_DEEP_ROCK);
                         output.accept(RealmStone.STONE_DEEP_ROCK1);
+                        output.accept(RealmStone.STONE_DEEP_ROCK_BRICK);
                         output.accept(RealmStone.STONEBRICK);
                         output.accept(RealmStone.deep_black_stone);
                         output.accept(RealmStone.LAVA_STONE);
@@ -379,12 +383,31 @@ public class RealmCreativeModeTabs {
             FabricCreativeModeTab.builder().icon(()-> new ItemStack(RealmLimestone.red_limestone))
                     .title(Component.translatable("item.realm_limestone"))
                     .displayItems((parameters, output) -> {
+                        output.accept(RealmLimestone.dark_limestone_brick);
+                        output.accept(RealmLimestone.dark_limestone);
+                        output.accept(RealmLimestone.dark_silver_limestone);
+                        output.accept(RealmLimestone.dark_silver_limestone_brick);
+                        output.accept(RealmLimestone.old_limestone);
+                        output.accept(RealmLimestone.old_limestone1);
+                        output.accept(RealmLimestone.old_limestone_brick);
+                        output.accept(RealmLimestone.old_limestone_brick_slab);
                         output.accept(RealmLimestone.red_limestone);
+                        output.accept(RealmLimestone.red_limestone1);
+                        output.accept(RealmLimestone.red_limestone2);
+                        output.accept(RealmLimestone.red_limestone2_slab);
+                        output.accept(RealmLimestone.red_limestone_brick);
+                        output.accept(RealmLimestone.red_limestone_brick1);
+                        output.accept(RealmLimestone.red_limestone_brick_slab);
+                        output.accept(RealmLimestone.red_limestone_brick_wall);
+                        output.accept(RealmLimestone.red_deep_limestone);
+                        output.accept(RealmLimestone.red_deep_limestone_brick);
                         output.accept(RealmLimestone.light_limestone);
                         output.accept(RealmLimestone.light_limestone1);
                         output.accept(RealmLimestone.light_limestone2);
                         output.accept(RealmLimestone.light_limestone3);
                         output.accept(RealmLimestone.light_limestone4);
+                        output.accept(RealmLimestone.light_limestone5);
+                        output.accept(RealmLimestone.light_limestone_brick);
                         output.accept(RealmLimestone.light_limestone2_1);
                         output.accept(RealmLimestone.light_limestone2_2);
                         output.accept(RealmLimestone.light_lime_PIKE);
@@ -397,6 +420,9 @@ public class RealmCreativeModeTabs {
                         output.accept(RealmLimestone.limestone6);
                         output.accept(RealmLimestone.limestone7);
                         output.accept(RealmLimestone.limestone8);
+                        output.accept(RealmLimestone.limestone_8_slab);
+                        output.accept(RealmLimestone.limestone9);
+                        output.accept(RealmLimestone.limestone_brick);
                         output.accept(RealmLimestone.aged_limestone);
                         output.accept(RealmLimestone.aged_limestone1);
                         output.accept(RealmLimestone.aged_limestone2);

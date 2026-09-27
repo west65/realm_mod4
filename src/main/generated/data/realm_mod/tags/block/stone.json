@@ -1,5 +1,8 @@
 {
   "values": [
+    "realm_mod:rock_deep_stone_brick",
+    "realm_mod:rock_deep_stone",
+    "realm_mod:rock_deep_stone1",
     "realm_mod:kragmor_slab",
     "realm_mod:kragmor",
     "realm_mod:gorvask_stone",
@@ -91,6 +94,7 @@
     "realm_mod:deep_silver_stone",
     "realm_mod:deep_silver_stone1",
     "realm_mod:lava_stone",
+    "realm_mod:stone_deep_rock_brick",
     "realm_mod:stone"
   ]
 }

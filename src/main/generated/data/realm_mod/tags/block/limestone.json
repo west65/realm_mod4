@@ -1,5 +1,21 @@
 {
   "values": [
+    "realm_mod:red_deep_limestone",
+    "realm_mod:red_deep_limestone_brick",
+    "realm_mod:limestone_8_slab",
+    "realm_mod:dark_silver_limestone_brick",
+    "realm_mod:dark_limestone_brick",
+    "realm_mod:dark_limestone",
+    "realm_mod:dark_silver_limestone",
+    "realm_mod:old_limestone_brick_slab",
+    "realm_mod:old_limestone",
+    "realm_mod:old_limestone1",
+    "realm_mod:old_limestone_brick",
+    "realm_mod:red_limestone1",
+    "realm_mod:red_limestone2",
+    "realm_mod:red_limestone_brick1",
+    "realm_mod:light_limestone_brick",
+    "realm_mod:light_limestone5",
     "realm_mod:light_limestone4",
     "realm_mod:light_limestone3",
     "realm_mod:light_limestone1",
@@ -12,6 +28,9 @@
     "realm_mod:limestone5",
     "realm_mod:limestone6",
     "realm_mod:limestone7",
+    "realm_mod:limestone8",
+    "realm_mod:limestone9",
+    "realm_mod:limestone_brick",
     "realm_mod:aged_limestone",
     "realm_mod:aged_limestone1",
     "realm_mod:aged_limestone2",
@@ -22,6 +41,9 @@
     "realm_mod:aged_limestone_brick2",
     "realm_mod:aged_limestone_brick3",
     "realm_mod:aged_limestone_brick",
+    "realm_mod:red_limestone_brick",
+    "realm_mod:red_limestone_brick_wall",
+    "realm_mod:red_limestone_brick_slab",
     "realm_mod:red_limestone"
   ]
 }

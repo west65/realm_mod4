@@ -92,7 +92,23 @@ public class RealmEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("block.realm_mod.dark_stone_slab", "dark_stone_slab");
         translationBuilder.add("block.realm_mod.red_stone", "red_stone");
         translationBuilder.add("block.realm_mod.red_stone1", "red_stone1");
-
+        translationBuilder.add("block.realm_mod.old_limestone", "old_limestone");
+        translationBuilder.add("block.realm_mod.old_limestone_brick", "old_limestone_brick");
+        translationBuilder.add("block.realm_mod.dark_limestone_brick", "dark_limestone_brick");
+        translationBuilder.add("block.realm_mod.dark_silver_limestone", "dark_silver_limestone");
+        translationBuilder.add("block.realm_mod.dark_silver_limestone_brick", "dark_silver_limestone_brick");
+        translationBuilder.add("block.realm_mod.dark_limestone", "dark_limestone");
+        translationBuilder.add("block.realm_mod.old_limestone_brick_slab", "old_limestone_brick_slab");
+        translationBuilder.add("block.realm_mod.old_limestone1", "old_limestone1");
+        translationBuilder.add("block.realm_mod.red_limestone1", "red_limestone1");
+        translationBuilder.add("block.realm_mod.red_limestone2", "red_limestone2");
+        translationBuilder.add("block.realm_mod.red_limestone2_slab", "red_limestone2_slab");
+        translationBuilder.add("block.realm_mod.red_limestone_brick", "red_limestone_brick");
+        translationBuilder.add("block.realm_mod.red_limestone_brick1", "red_limestone_brick1");
+        translationBuilder.add("block.realm_mod.red_limestone_brick_slab", "red_limestone_brick_slab");
+        translationBuilder.add("block.realm_mod.red_limestone_brick_wall", "red_limestone_brick_wall");
+        translationBuilder.add("block.realm_mod.red_deep_limestone", "red_deep_limestone");
+        translationBuilder.add("block.realm_mod.red_deep_limestone_brick", "red_deep_limestone_brick");
         translationBuilder.add("block.realm_mod.chalk1_2", "chalk1_2");
         translationBuilder.add("block.realm_mod.chalk", "chalk");
         translationBuilder.add("block.realm_mod.chalk1", "chalk1");
@@ -126,6 +142,11 @@ public class RealmEnglishLangProvider extends FabricLanguageProvider {
 
 
 
+
+
+        translationBuilder.add("block.realm_mod.rock_deep_stone1", "rock_deep_stone1");
+        translationBuilder.add("block.realm_mod.rock_deep_stone", "rock_deep_stone");
+        translationBuilder.add("block.realm_mod.rock_deep_stone_brick", "rock_deep_stone_brick");
         translationBuilder.add("block.realm_mod.stone_block", "stone_block");
         translationBuilder.add("block.realm_mod.stonebrick", "stonebrick");
         translationBuilder.add("block.realm_mod.stone_rock_n1", "stone_rock_n1");
@@ -374,6 +395,10 @@ public class RealmEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("block.realm_mod.small_crystal", "small_crystal");
         translationBuilder.add("block.realm_mod.starlace", "starlace");
 
+
+
+        translationBuilder.add("block.realm_mod.light_limestone_brick", "light_limestone_brick");
+        translationBuilder.add("block.realm_mod.light_limestone5", "light_limestone5");
         translationBuilder.add("block.realm_mod.light_limestone4", "light_limestone4");
         translationBuilder.add("block.realm_mod.light_limestone3", "light_limestone3");
         translationBuilder.add("block.realm_mod.light_limestone2", "light_limestone2");
@@ -393,6 +418,9 @@ public class RealmEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("block.realm_mod.limestone6", "limestone6");
         translationBuilder.add("block.realm_mod.limestone7", "limestone7");
         translationBuilder.add("block.realm_mod.limestone8", "limestone8");
+        translationBuilder.add("block.realm_mod.limestone9", "limestone9");
+        translationBuilder.add("block.realm_mod.limestone_brick", "limestone_brick");
+        translationBuilder.add("block.realm_mod.limestone_8_slab", "limestone_8_slab");
         translationBuilder.add("block.realm_mod.mithril_stone", "mithril_stone");
         translationBuilder.add("block.realm_mod.mithril_stone1", "mithril_stone1");
         translationBuilder.add("block.realm_mod.mithril_stone2", "mithril_stone2");
