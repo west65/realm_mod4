@@ -305,6 +305,12 @@ tag(RealmTags.BLOCK.desert)
 
 
        tag(BlockTags.MINEABLE_WITH_AXE)
+               .add(Realm_logs.getRK(Realm_logs.DARK_SHADOW_LOG))
+               .add(Realm_logs.getRK(Realm_logs.ANCIENT_OAK_FENCE))
+               .add(Realm_logs.getRK(Realm_logs.ANCIENT_OAK_PLANKS))
+               .add(Realm_logs.getRK(Realm_logs.CHAPEL_log))
+               .add(Realm_logs.getRK(Realm_logs.ELM_LEAVES))
+               .add(Realm_logs.getRK(Realm_logs.ELMWOOD_log))
                .add(Realm_logs.getRK(Realm_logs.BRAMBLEGROVE_LOG))
                .add(Realm_logs.getRK(Realm_logs.OBANT_LOG))
                .add(Realm_logs.getRK(Realm_logs.FOXGLOVE_LOG))
@@ -346,6 +352,7 @@ tag(RealmTags.BLOCK.desert)
 
 
        tag(BlockTags.FENCES)
+               .add(Realm_logs.getRK(Realm_logs.ANCIENT_OAK_FENCE))
                .add(RealmStone.getRK(RealmStone.LAVA_STONE_FENCE))
                .add(Realm_logs.getRK(Realm_logs.ESWELL_BIRCH_FENCE))
                .add(Realm_logs.getRK(Realm_logs.WINTER_OAK_FENCE))
@@ -391,6 +398,10 @@ tag(RealmTags.BLOCK.desert)
 
 
                   tag(BlockTags.LOGS)
+                          .add(Realm_logs.getRK(Realm_logs.OAK_BEW_LOG))
+                          .add(Realm_logs.getRK(Realm_logs.NOBLE_FIR_LOG))
+                          .add(Realm_logs.getRK(Realm_logs.DARK_SHADOW_LOG))
+                          .add(Realm_logs.getRK(Realm_logs.CHAPEL_log))
                           .add(Realm_logs.getRK(Realm_logs.ANCIENT_OAK_log))
                           .add(Realm_logs.getRK(Realm_logs.STARFALL_log))
                           .add(Realm_logs.getRK(Realm_logs.elderwell_log))
@@ -503,6 +514,7 @@ tag(RealmTags.BLOCK.desert)
 
 
                   tag(BlockTags.PLANKS)
+                          .add(Realm_logs.getRK(Realm_logs.ANCIENT_OAK_PLANKS))
                           .add(Realm_logs.getRK(Realm_logs.BURN_BIRCH_PLANKS))
                           .add(Realm_logs.getRK(Realm_logs.SHADOW_PINE_PLANKS))
               .add(Realm_logs.getRK(Realm_logs.WINTER_OAK_PLANKS))
@@ -542,6 +554,8 @@ tag(RealmTags.BLOCK.desert)
 
 
                     tag(BlockTags.LEAVES)
+                            .add(Realm_logs.getRK(Realm_logs.CHAPEL_LEAVES))
+                            .add(Realm_logs.getRK(Realm_logs.ELM_LEAVES))
                             .add(Realm_logs.getRK(Realm_logs.WILLOW_BLOOM_LEAVES))
                             .add(Realm_logs.getRK(Realm_logs.STARFALL_LEAVES))
                             .add(Realm_logs.getRK(Realm_logs.DARK_SOUL_LEAVES))

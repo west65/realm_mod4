@@ -275,6 +275,12 @@ public class Realm_logs {
     public static final Block ANCIENT_OAK_log = registerBlock("ancient_oak_log",
             properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
                     .sound(SoundType.WOOD).ignitedByLava()));
+    public static final Block ANCIENT_OAK_PLANKS = registerBlock("ancient_oak_planks",
+            properties -> new Block(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
+    public static final Block ANCIENT_OAK_FENCE = registerBlock("ancient_oak_fence",
+            properties -> new FenceBlock(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
     public static final Block ANCIENT_OAK_LEAVES = registerBlock("ancient_oak_leaves",
             properties -> new UntintedParticleLeavesBlock(0f, ParticleTypes.PALE_OAK_LEAVES,
                     properties.mapColor(MapColor.COLOR_LIGHT_BLUE).strength(0.2F).randomTicks().sound(SoundType.GRASS)
@@ -293,7 +299,33 @@ public class Realm_logs {
                             .noOcclusion().isValidSpawn(Blocks::ocelotOrParrot).isSuffocating(Blocks::never)
                             .isViewBlocking(Blocks::never).ignitedByLava().pushReaction(PushReaction.DESTROY)
                             .isRedstoneConductor(Blocks::never)));
-
+    public static final Block ELMWOOD_log = registerBlock("elmwood_log",
+            properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
+    public static final Block ELM_LEAVES = registerBlock("elm_leaves",
+            properties -> new UntintedParticleLeavesBlock(0f, ParticleTypes.PALE_OAK_LEAVES,
+                    properties.mapColor(MapColor.COLOR_LIGHT_GRAY).strength(0.2F).randomTicks().sound(SoundType.GRASS)
+                            .noOcclusion().isValidSpawn(Blocks::ocelotOrParrot).isSuffocating(Blocks::never)
+                            .isViewBlocking(Blocks::never).ignitedByLava().pushReaction(PushReaction.DESTROY)
+                            .isRedstoneConductor(Blocks::never)));
+    public static final Block CHAPEL_LEAVES = registerBlock("chapel_leaves",
+            properties -> new UntintedParticleLeavesBlock(0f, ParticleTypes.PALE_OAK_LEAVES,
+                    properties.mapColor(MapColor.COLOR_LIGHT_GRAY).strength(0.2F).randomTicks().sound(SoundType.GRASS)
+                            .noOcclusion().isValidSpawn(Blocks::ocelotOrParrot).isSuffocating(Blocks::never)
+                            .isViewBlocking(Blocks::never).ignitedByLava().pushReaction(PushReaction.DESTROY)
+                            .isRedstoneConductor(Blocks::never)));
+    public static final Block CHAPEL_log = registerBlock("chapel_log",
+            properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
+    public static final Block DARK_SHADOW_LOG = registerBlock("dark_shadow_log",
+            properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
+    public static final Block NOBLE_FIR_LOG = registerBlock("noble_fir_log",
+            properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
+    public static final Block OAK_BEW_LOG = registerBlock("oak_bew_log",
+            properties -> new RotatedPillarBlock(properties.mapColor(MapColor.WOOD).strength(2f)
+                    .sound(SoundType.WOOD).ignitedByLava()));
 
 
 

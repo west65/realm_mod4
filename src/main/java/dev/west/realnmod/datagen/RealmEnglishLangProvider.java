@@ -259,9 +259,18 @@ public class RealmEnglishLangProvider extends FabricLanguageProvider {
 
 
         //logs
+        translationBuilder.add("block.realm_mod.oak_bew_log", "oak_bew_log");
+        translationBuilder.add("block.realm_mod.noble_fir_log", "noble_fir_log");
+        translationBuilder.add("block.realm_mod.dark_shadow_log", "dark_shadow_log");
+        translationBuilder.add("block.realm_mod.chapel_log", "chapel_log");
+        translationBuilder.add("block.realm_mod.chapel_leaves", "chapel_leaves");
+        translationBuilder.add("block.realm_mod.elm_leaves", "elm_leaves");
+        translationBuilder.add("block.realm_mod.elmwood_log", "elmwood_log");
         translationBuilder.add("block.realm_mod.willow_bloom_leaves", "willow_bloom_leaves");
         translationBuilder.add("block.realm_mod.starfall_leaves", "starfall_leaves");
         translationBuilder.add("block.realm_mod.ancient_oak_leaves", "amcient_oak_leaves");
+        translationBuilder.add("block.realm_mod.ancient_oak_planks", "amcient_oak_planks");
+        translationBuilder.add("block.realm_mod.ancient_oak_fence", "amcient_oak_fence");
         translationBuilder.add("block.realm_mod.ancient_oak_log", "amcient_oak_log");
         translationBuilder.add("block.realm_mod.starfall_log", "starfall_log");
         translationBuilder.add("block.realm_mod.cedarbrook_log", "cedarbrook_log");

@@ -673,6 +673,8 @@ public class RealmCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(Realm_logs.ANCIENT_OAK_LEAVES);
                         output.accept(Realm_logs.ANCIENT_OAK_log);
+                        output.accept(Realm_logs.ANCIENT_OAK_PLANKS);
+                        output.accept(Realm_logs.ANCIENT_OAK_FENCE);
                         output.accept(Realm_logs.STARFALL_LEAVES);
                         output.accept(Realm_logs.STARFALL_log);
                         output.accept(Realm_logs.cedarbrook_log);
@@ -743,11 +745,18 @@ public class RealmCreativeModeTabs {
                         output.accept(Realm_logs.SHADOW_PINE_PLANKS);
                         output.accept(Realm_logs.SHADOW_PINE_FENCE);
                         output.accept(Realm_logs.SHADOW_EYE_PINE_LOG);
+                        output.accept(Realm_logs.DARK_SHADOW_LOG);
                         output.accept(Realm_logs.DARK_SOUL_LOG_CHAIN);
                         output.accept(Realm_logs.EMBERIAR_LOG);
                         output.accept(Realm_logs.MISTWOOD_LOG);
                         output.accept(Realm_logs.DEEPCORE_LOG);
                         output.accept(Realm_logs.elderwell_log);
+                        output.accept(Realm_logs.ELMWOOD_log);
+                        output.accept(Realm_logs.ELM_LEAVES);
+                        output.accept(Realm_logs.CHAPEL_LEAVES);
+                        output.accept(Realm_logs.CHAPEL_log);
+                        output.accept(Realm_logs.NOBLE_FIR_LOG);
+                        output.accept(Realm_logs.OAK_BEW_LOG);
 
 
 
